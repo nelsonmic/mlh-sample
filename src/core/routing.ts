@@ -1,0 +1,18 @@
+export const Routes = {
+  Login: '/auth',
+  ForgotPassword: '/auth/forgot-password',
+  EnterOtp: '/auth/enter-otp',
+  SetPassword: '/auth/set-password',
+  Success: 'success',
+  VerifyToken: 'verify/:token',
+  AdminRoot: '/',
+  Orders: 'orders',
+  Haulage: '/haulage',
+  EditHaulage: 'edit',
+  Tracking: 'tracking',
+  Reports: 'reports',
+  Transactions: 'transactions',
+  Newsletter: 'newsletter',
+  Users: 'waitlist',
+  Settings: 'settings',
+}

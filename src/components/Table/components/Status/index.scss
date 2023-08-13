@@ -1,0 +1,19 @@
+@import "../../../../sass/variables";
+
+.status{
+    border-radius: 7px;
+    padding:.5em .8em;
+    font-size: $fs-secondary-text;
+    font-weight: 400;
+    display: inline-block;
+
+    &.success{
+            background-color: $success-lightest;
+            color: $success-darkest;
+    }
+    &.error{
+        background-color: $error-lightest;
+        color: $error-darkest;
+    }
+}
+

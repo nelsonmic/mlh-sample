@@ -1,0 +1,48 @@
+@import "../../sass/variables";
+
+$soft-border: 1.3px solid #EBEBEB;
+
+.table{
+    // general styling for table elements
+    border-collapse: collapse;
+    max-width: 2000px;
+    min-width: 810px;
+    width: 100%;
+    border-left: $soft-border;
+    border-right: $soft-border;
+
+    &.center{
+        th,td{
+            text-align: center;
+        }
+    }
+
+    th,td{
+        padding:1.5em 1em;
+        text-align: left;
+    }
+    
+    th {
+        font-size: $fs-size-12;
+        font-weight: 400;
+        color: $text-subdued;
+        
+        span{
+            display: inline-flex;
+            align-items: center;
+    
+            svg{
+                display: inline-block;
+                width:15px;
+                margin-left:.3em;
+            }
+        }
+    }
+    
+    td {
+        font-size: $fs-secondary-text;
+        font-weight: 400;
+        color: $text-color;
+        border-bottom: $soft-border;
+    }
+}

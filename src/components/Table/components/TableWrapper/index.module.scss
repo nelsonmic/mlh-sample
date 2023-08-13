@@ -1,0 +1,30 @@
+@import "../../../../sass/_responsive.scss";
+
+.overflow_wrapper{
+    overflow-x: scroll;
+    width: 310px;
+    min-height: auto;
+}
+
+@include min_width_media_sm{
+    .overflow_wrapper{
+        width: 500px;
+    }
+}
+
+@include min_width_media_md{
+    .overflow_wrapper{
+        width: 750px;
+    }
+}
+
+@include min_width_media_lg{
+    .overflow_wrapper{
+        width: 900px;
+    }
+}
+@include min_width_media_xl{
+    .overflow_wrapper{
+        width: 100%;
+    }
+}

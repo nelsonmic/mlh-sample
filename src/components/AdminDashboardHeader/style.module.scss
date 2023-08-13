@@ -1,0 +1,21 @@
+@import "../../sass/_variables.scss";
+
+
+.dashboardHeader{
+    & > * + * {
+        margin-top:1em;
+    }
+    
+    h1{
+        font-size: $fs-heading2;
+        font-weight: 500;
+        color: $black;
+        text-transform: capitalize;
+    }
+
+    p{
+        font-size: $fs-size-16;
+        font-weight:400;
+        color:$accent-cta-75 ;
+    }
+}

@@ -1,0 +1,31 @@
+ @import "../../sass/variables";
+ 
+ button{
+    --icon-color: #5C5F62;
+    --border-color: #BABFC3;
+    border:1px solid var(--border-color);
+    background-color: $white;
+
+
+    svg{
+        color:var(--icon-color);
+        padding: .5em 0;
+    }
+
+    &.disabled{
+        border: 1px solid $border-disabled;
+        background-color: $surface-disabled;
+
+        svg{
+            color: $icon-disabled;
+        }
+    }
+}
+
+.arrow_left{
+    border-radius: 5px 0 0 5px;
+}
+
+.arrow_right{
+    border-radius: 0 5px 5px 0;
+}

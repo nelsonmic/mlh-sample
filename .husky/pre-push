@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+clear && npx tsc --noEmit && echo "TypeScript compilation complete" &&
+npm run -s lint &&
+npm run -s test -- --watchAll=false &&
+npm run -s build

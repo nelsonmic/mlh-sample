@@ -1,0 +1,28 @@
+.tableTabs{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    & > * + * {
+        margin-top: 2.5em;
+    }
+
+    button {
+        padding: .4em 1.5em;
+    }
+}
+
+.tableTabTitles{
+    // border-bottom: 1px solid ;
+    border-bottom:1px solid #E4E1E1;
+    & > * + *{
+        margin-left: 1.75em;
+    }
+}
+
+.tableTabHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}

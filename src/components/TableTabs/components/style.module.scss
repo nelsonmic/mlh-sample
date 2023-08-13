@@ -1,0 +1,15 @@
+@import "../../../sass/variables";
+
+.tableTabTitle{
+    font-size: $fs-size-16;
+    font-weight: 400;
+    color: #6D7175;
+    padding: .85em .65em;
+    border:none;
+    text-transform: capitalize;
+
+    &.active{
+        border-bottom: 3px solid purple;
+        color: #202223;
+    }
+}

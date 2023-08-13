@@ -1,0 +1,37 @@
+
+.close_icon{
+    font-size: 3em;
+    text-align: right;
+    margin-left: auto;
+    cursor:pointer;
+}
+
+
+.register_state{
+    font-size:1.5rem;
+    text-align: center;
+
+    & > * + * {
+        margin-top:1em;
+    }
+
+    img{
+        margin: 0 auto;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 300ms ease-out    forwards;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(.85)
+    }
+    to {
+        opacity: 100;
+        transform: scale(1)
+    }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.orderContainer > * + * {
+  margin-top: 7.5em;
+}
+
+.otp-input {
+  width: 100%;
+}
+
+.otp-input > div {
+  justify-content: space-between;
+}

@@ -1,0 +1,60 @@
+@import "./variables";
+
+//desktop first media query
+@mixin media_xs{
+    @media screen and (max-width: $breakpoint-xs) {
+        @content
+    }
+};
+
+@mixin media_sm{
+    @media screen and (max-width: $breakpoint-sm) {
+        @content
+    }
+};
+
+@mixin media_md{
+    @media screen and (max-width: $breakpoint-md) {
+        @content
+    }
+};
+
+
+@mixin media_lg{
+    @media screen and (max-width: $breakpoint-lg) {
+        @content
+    }
+};
+
+// mobile first media query
+@mixin min_width_media_xs{
+    @media screen and (min-width: $breakpoint-xs) {
+        @content
+    }
+};
+
+@mixin min_width_media_sm{
+    @media screen and (min-width: $breakpoint-sm) {
+        @content
+    }
+};
+
+@mixin min_width_media_md{
+    @media screen and (min-width: $breakpoint-md) {
+        @content
+    }
+};
+
+
+@mixin min_width_media_lg{
+    @media screen and (min-width: $breakpoint-lg) {
+        @content
+    }
+};
+
+@mixin min_width_media_xl{
+    @media screen and (min-width: $breakpoint-xl) {
+        @content
+    }
+}
+

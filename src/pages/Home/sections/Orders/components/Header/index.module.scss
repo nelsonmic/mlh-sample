@@ -1,0 +1,36 @@
+@import '../../../../../../sass/variables';
+
+.flex {
+  display: flex;
+  align-items: center;
+
+  //spacing between children
+  & > * + * {
+    margin-left: 3em;
+  }
+}
+
+.order_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4em 0;
+
+  .see_all_btn {
+    border: none;
+    outline: none;
+    background-color: $secondary-dark;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    font-size: $fs-secondary-text;
+    font-weight: 500;
+    color: #404040;
+  }
+}
+
+.pagination_btns {
+  // add space between children
+  & > * + * {
+    margin-left: 1.3em;
+  }
+}
